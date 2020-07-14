@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home_icon"
+            android:title="Home" />
+
+        <item
+            android:id="@+id/nav_school"
+            android:icon="@drawable/school_icon"
+            android:title="School" />
+
+        <item
+            android:id="@+id/nav_setting"
+            android:icon="@drawable/setting_icon"
+            android:title="Meal Provision" />
+
+        <item
+            android:id="@+id/nav_help"
+            android:icon="@drawable/help_icon"
+            android:title="Help" />
+
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/about_icon"
+            android:title="About" />
+
+    </group>
+
+
+    <item android:title="Profile">
+        <menu>
+
+            <group android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/nav_profile"
+                    android:icon="@drawable/profile_icon"
+                    android:title="Profile" />
+
+                <item
+                    android:id="@+id/nav_logout"
+                    android:icon="@drawable/logout_icon"
+                    android:title="Logout" />
+
+            </group>
+
+        </menu>
+    </item>
+
+</menu>
