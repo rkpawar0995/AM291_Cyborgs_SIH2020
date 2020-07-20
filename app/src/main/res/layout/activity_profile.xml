@@ -43,8 +43,8 @@
             android:id="@+id/school_id_profile"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="School ID"
             android:textSize="19sp"
+            android:text="schoolid"
             android:layout_marginLeft="2dp"
             android:layout_marginRight="2dp" />
 
@@ -64,7 +64,7 @@
             android:id="@+id/school_name_profile"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="School Name"
+            android:text="schoolname"
             android:textSize="19sp"
             android:layout_marginLeft="2dp"
             android:layout_marginRight="2dp"
@@ -86,7 +86,7 @@
             android:id="@+id/name_profile"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Name"
+            android:text="name"
             android:textSize="19sp"
             android:layout_marginLeft="2dp"
             android:layout_marginRight="2dp"
@@ -105,32 +105,10 @@
             tools:layout_editor_absoluteX="-2dp" />
 
         <TextView
-            android:id="@+id/emailText"
+            android:id="@+id/emailPro"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Email"
-            android:textSize="19sp"
-            android:layout_marginLeft="2dp"
-            android:layout_marginRight="2dp"
-            android:layout_marginTop="2dp"/>
-
-        <View
-            android:id="@+id/view4"
-            android:layout_width="match_parent"
-            android:layout_height="2dp"
-            android:layout_below="@+id/textView12"
-            android:layout_marginTop="0dp"
-            android:background="#FF9800"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/relativeLayout3"
-            app:layout_constraintVertical_bias="0.0"
-            tools:layout_editor_absoluteX="-2dp" />
-
-        <TextView
-            android:id="@+id/phone_profile"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Phone"
+            android:text="email"
             android:textSize="19sp"
             android:layout_marginLeft="2dp"
             android:layout_marginRight="2dp"
@@ -140,7 +118,7 @@
             android:id="@+id/view5"
             android:layout_width="match_parent"
             android:layout_height="2dp"
-            android:layout_below="@+id/textView12"
+            android:layout_below="@+id/view3"
             android:layout_marginTop="0dp"
             android:background="#FF9800"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -152,6 +130,7 @@
         <Button
             android:id="@+id/update_btn"
             android:layout_width="match_parent"
+            android:layout_below="@+id/emailPro"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
             android:layout_marginBottom="5dp"
