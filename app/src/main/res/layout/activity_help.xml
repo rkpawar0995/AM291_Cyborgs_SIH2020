@@ -1,16 +1,345 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_marginLeft="2dp"
+    android:layout_marginRight="2dp"
+    android:layout_marginBottom="9dp"
     tools:context=".Common.Help">
 
-    <TextView
-        android:id="@+id/textView12"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:text="Help" />
-</RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/alegreya_sc_bold"
+            android:text="Help"
+            android:textColor="#2E2E2E"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <View
+            android:id="@+id/view1"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/textView12"
+            android:layout_marginTop="0dp"
+            android:background="#DF3E3D3D"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/relativeLayout3"
+            app:layout_constraintVertical_bias="0.0"
+            tools:layout_editor_absoluteX="-2dp" />
+
+        <TextView
+            android:id="@+id/tvh1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/view1"
+            android:text="@string/help"
+            android:textColor="#191919"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/tvh2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/tvh1"
+            android:text="@string/help1"
+            android:textColor="#191919"
+            android:textSize="14dp" />
+
+        <ImageView
+            android:id="@+id/img1"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_below="@+id/tvh2"
+            android:src="@drawable/faq_img" />
+
+        <View
+            android:id="@+id/view2"
+            android:layout_width="match_parent"
+            android:layout_height="4dp"
+            android:layout_below="@+id/img1"
+            android:layout_marginTop="0dp"
+            android:background="#DF3E3D3D"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/relativeLayout3"
+            app:layout_constraintVertical_bias="0.0"
+            tools:layout_editor_absoluteX="-2dp" />
+
+        <TextView
+            android:id="@+id/tvh3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/view2"
+            android:background="#BEFFEB3B"
+            android:text="@string/help2"
+            android:textColor="#191919"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/tvh4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/tvh3"
+            android:text="@string/help2a"
+            android:textColor="#191919"
+            android:textSize="14dp" />
+
+        <View
+            android:id="@+id/view3"
+            android:layout_width="match_parent"
+            android:layout_height="4dp"
+            android:layout_below="@+id/tvh4"
+            android:layout_marginTop="0dp"
+            android:background="#DF3E3D3D"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/relativeLayout3"
+            app:layout_constraintVertical_bias="0.0"
+            tools:layout_editor_absoluteX="-2dp" />
+
+        <TextView
+            android:id="@+id/tvh5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/view3"
+            android:background="#BEFFEB3B"
+            android:text="@string/help3"
+            android:textColor="#191919"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/tvh6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/tvh5"
+            android:text="@string/help3a"
+            android:textColor="#191919"
+            android:textSize="14dp" />
+
+        <View
+            android:id="@+id/view4"
+            android:layout_width="match_parent"
+            android:layout_height="4dp"
+            android:layout_below="@+id/tvh6"
+            android:layout_marginTop="0dp"
+            android:background="#DF3E3D3D"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/relativeLayout3"
+            app:layout_constraintVertical_bias="0.0"
+            tools:layout_editor_absoluteX="-2dp" />
+
+        <TextView
+            android:id="@+id/tvh7"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/tvh6"
+            android:background="#BEFFEB3B"
+            android:text="@string/help4"
+            android:textColor="#191919"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/tvh8"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/tvh7"
+            android:text="@string/help4a"
+            android:textColor="#191919"
+            android:textSize="14dp" />
+
+        <View
+            android:id="@+id/view5"
+            android:layout_width="match_parent"
+            android:layout_height="4dp"
+            android:layout_below="@+id/tvh8"
+            android:layout_marginTop="0dp"
+            android:background="#DF3E3D3D"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/relativeLayout3"
+            app:layout_constraintVertical_bias="0.0"
+            tools:layout_editor_absoluteX="-2dp" />
+
+        <TextView
+            android:id="@+id/tvh9"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/tvh8"
+            android:background="#BEFFEB3B"
+            android:text="@string/help5"
+            android:textColor="#191919"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/tvh10"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/tvh9"
+            android:text="@string/help5a"
+            android:textColor="#191919"
+            android:textSize="14dp" />
+
+        <View
+            android:id="@+id/view6"
+            android:layout_width="match_parent"
+            android:layout_height="4dp"
+            android:layout_below="@+id/tvh10"
+            android:layout_marginTop="0dp"
+            android:background="#DF3E3D3D"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/relativeLayout3"
+            app:layout_constraintVertical_bias="0.0"
+            tools:layout_editor_absoluteX="-2dp" />
+
+        <TextView
+            android:id="@+id/tvh11"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/view6"
+            android:background="#BEFFEB3B"
+            android:text="@string/help6"
+            android:textColor="#191919"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/tvh12"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/tvh11"
+            android:text="@string/help6a"
+            android:textColor="#191919"
+            android:textSize="14dp" />
+
+        <View
+            android:id="@+id/view7"
+            android:layout_width="match_parent"
+            android:layout_height="4dp"
+            android:layout_below="@+id/tvh12"
+            android:layout_marginTop="0dp"
+            android:background="#DF3E3D3D"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/relativeLayout3"
+            app:layout_constraintVertical_bias="0.0"
+            tools:layout_editor_absoluteX="-2dp" />
+
+        <TextView
+            android:id="@+id/tvh13"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/view7"
+            android:background="#BEFFEB3B"
+            android:text="@string/help7"
+            android:textColor="#191919"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/tvh14"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/tvh13"
+            android:text="@string/help7a"
+            android:textColor="#191919"
+            android:textSize="14dp" />
+
+        <View
+            android:id="@+id/view8"
+            android:layout_width="match_parent"
+            android:layout_height="4dp"
+            android:layout_below="@+id/tvh14"
+            android:layout_marginTop="0dp"
+            android:background="#DF3E3D3D"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/relativeLayout3"
+            app:layout_constraintVertical_bias="0.0"
+            tools:layout_editor_absoluteX="-2dp" />
+
+        <TextView
+            android:id="@+id/tvh15"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/view8"
+            android:background="#BEFFEB3B"
+            android:text="@string/help8"
+            android:textColor="#191919"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/tvh16"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/tvh15"
+            android:text="@string/help8a"
+            android:textColor="#191919"
+            android:textSize="14dp" />
+
+        <View
+            android:id="@+id/view9"
+            android:layout_width="match_parent"
+            android:layout_height="4dp"
+            android:layout_below="@+id/tvh16"
+            android:background="#DF3E3D3D"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/relativeLayout3"
+            app:layout_constraintVertical_bias="0.0"
+            tools:layout_editor_absoluteX="-2dp" />
+
+        <TextView
+            android:id="@+id/tvh17"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/view9"
+            android:background="#BEFFEB3B"
+            android:text="@string/help9"
+            android:textColor="#191919"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/tvh18"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/tvh17"
+            android:text="@string/help9a"
+            android:textColor="#191919"
+            android:textSize="14dp" />
+
+        <View
+            android:id="@+id/view10"
+            android:layout_width="match_parent"
+            android:layout_height="4dp"
+            android:layout_below="@+id/tvh18"
+            android:background="#DF3E3D3D"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/relativeLayout3"
+            app:layout_constraintVertical_bias="0.0"
+            tools:layout_editor_absoluteX="-2dp" />
+
+        <TextView
+            android:id="@+id/tvh19"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/view10"
+            android:background="#BEFFEB3B"
+            android:text="@string/help10"
+            android:textColor="#191919"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/tvh20"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/tvh19"
+            android:text="@string/help10a"
+            android:textColor="#191919"
+            android:textSize="14dp" />
+
+
+    </RelativeLayout>
+</ScrollView>
