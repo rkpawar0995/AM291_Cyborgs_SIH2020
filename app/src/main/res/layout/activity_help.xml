@@ -20,7 +20,7 @@
             android:layout_alignParentTop="true"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="10dp"
-            android:fontFamily="@font/alegreya_sc_bold"
+            android:fontFamily="@font/acme"
             android:text="Help"
             android:textColor="#2E2E2E"
             android:textSize="24sp"
@@ -143,6 +143,7 @@
             android:layout_height="match_parent"
             android:layout_below="@+id/tvh6"
             android:background="#BEFFEB3B"
+            android:fontFamily="sans-serif"
             android:text="@string/help4"
             android:textColor="#191919"
             android:textSize="14dp" />

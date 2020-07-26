@@ -53,9 +53,9 @@ public class Profile extends AppCompatActivity {
                 for (DataSnapshot keyid : dataSnapshot.getChildren()) {
                     if (keyid.child("email").getValue().equals(email)) {
                         fname = keyid.child("name").getValue(String.class);
-                        mail = keyid.child("email").getValue(String.class);
-                        schlid = keyid.child("schoolid").getValue(String.class);
-                        schName = keyid.child("schoolname").getValue(String.class);
+                        mail = keyid.child("email").getValue().toString();
+                        schlid = keyid.child("schoolid").getValue().toString();
+                        schName = keyid.child("schoolname").getValue().toString();
                         break;
                     }
                 }
