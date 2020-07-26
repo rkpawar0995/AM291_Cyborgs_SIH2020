@@ -52,11 +52,10 @@ public class Profile extends AppCompatActivity {
             public void onDataChange( DataSnapshot dataSnapshot) {
                 for (DataSnapshot keyid : dataSnapshot.getChildren()) {
                     if (keyid.child("email").getValue().equals(email)) {
-                        fname = keyid.child("name").getValue(String.class);
+                        fname = keyid.child("name").getValue().toString();
                         mail = keyid.child("email").getValue().toString();
                         schlid = keyid.child("schoolid").getValue().toString();
                         schName = keyid.child("schoolname").getValue().toString();
-                        break;
                     }
                 }
 
