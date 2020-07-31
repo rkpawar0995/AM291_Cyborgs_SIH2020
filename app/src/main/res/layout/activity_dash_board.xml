@@ -76,7 +76,7 @@
                 android:layout_toStartOf="@+id/textView2"
                 android:layout_toLeftOf="@+id/textView2"
                 android:padding="9dp"
-                app:srcCompat="@drawable/mdm1" />
+                app:srcCompat="@drawable/mdm_logo" />
 
             <LinearLayout
                 android:id="@+id/layout1"
