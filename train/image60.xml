@@ -1,0 +1,26 @@
+<annotation>
+	<folder>train</folder>
+	<filename>image60.jpg</filename>
+	<path>/home/rahul/models/research/object_detection/images/train/image60.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>676</width>
+		<height>454</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>student</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>226</xmin>
+			<ymin>26</ymin>
+			<xmax>398</xmax>
+			<ymax>206</ymax>
+		</bndbox>
+	</object>
+</annotation>
