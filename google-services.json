@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "986167117346",
+    "firebase_url": "https://middaymeal-scheme.firebaseio.com",
+    "project_id": "middaymeal-scheme",
+    "storage_bucket": "middaymeal-scheme.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:986167117346:android:e5c71ed9e3b0de6aa82c7b",
+        "android_client_info": {
+          "package_name": "com.example.mdmscheme"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "986167117346-lbdtfu5qoiggcjngl1ocdm332sb42c7u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHCGeWCkZWtyIdEOmbbAlkztrPmkOEm28"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "986167117346-lbdtfu5qoiggcjngl1ocdm332sb42c7u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
