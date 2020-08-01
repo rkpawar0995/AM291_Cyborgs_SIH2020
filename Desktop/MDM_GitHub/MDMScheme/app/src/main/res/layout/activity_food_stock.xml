@@ -1,0 +1,748 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Common.FoodStock">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="16dp"
+                android:fontFamily="@font/acme"
+                android:padding="10dp"
+                android:text="@string/mfs"
+                android:textColor="#DF3E3D3D"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/row1"
+        android:layout_width="409dp"
+        android:layout_height="40dp"
+        android:layout_margin="10dp"
+        android:layout_weight="0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.110000014">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="102dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="306dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:fontFamily="@font/aclonica"
+                    android:text="Food Unit"
+                    android:textColor="#272727"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="102dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="204dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:fontFamily="@font/aclonica"
+                    android:text="6 to 8"
+                    android:textColor="#272727"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="102dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="102dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:fontFamily="@font/aclonica"
+                    android:text="1 to 5"
+                    android:textColor="#272727"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="102dp"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:fontFamily="@font/aclonica"
+                    android:text="Food Item"
+                    android:textColor="#272727"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+    </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/row2"
+                android:layout_width="409dp"
+                android:layout_height="40dp"
+                android:layout_margin="10dp"
+                android:layout_weight="0"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/row1"
+                app:layout_constraintVertical_bias="0.0">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="102dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="306dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:text="@string/kg"
+                            android:fontFamily="@font/aclonica"
+                            android:textColor="#272727"
+                            android:textSize="14sp"
+                            android:textStyle="bold" />
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="102dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="204dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <EditText
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:fontFamily="@font/aclonica"
+                            android:textColor="#272727"
+                            android:textSize="14sp"
+                            android:textStyle="bold" />
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="102dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="102dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <EditText
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:fontFamily="@font/aclonica"
+                            android:textColor="#272727"
+                            android:textSize="14sp"
+                            android:textStyle="bold" />
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="102dp"
+                    android:layout_height="match_parent">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:fontFamily="@font/aclonica"
+                            android:text="Rice"
+                            android:textColor="#272727"
+                            android:textSize="14sp"
+                            android:textStyle="bold" />
+                    </RelativeLayout>
+
+                </androidx.cardview.widget.CardView>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/row3"
+                android:layout_width="409dp"
+                android:layout_height="40dp"
+                android:layout_margin="10dp"
+                android:layout_weight="0"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/row2"
+                app:layout_constraintVertical_bias="0.0">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="102dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="306dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:text="@string/kg"
+                            android:fontFamily="@font/aclonica"
+                            android:textColor="#272727"
+                            android:textSize="14sp"
+                            android:textStyle="bold" />
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="102dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="204dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <EditText
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:fontFamily="@font/aclonica"
+                            android:textColor="#272727"
+                            android:textSize="14sp"
+                            android:textStyle="bold" />
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="102dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="102dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <EditText
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:fontFamily="@font/aclonica"
+                            android:textColor="#272727"
+                            android:textSize="14sp"
+                            android:textStyle="bold" />
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="102dp"
+                    android:layout_height="match_parent">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:fontFamily="@font/aclonica"
+                            android:text="Dal"
+                            android:textColor="#272727"
+                            android:textSize="14sp"
+                            android:textStyle="bold" />
+                    </RelativeLayout>
+
+                </androidx.cardview.widget.CardView>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/row4"
+                android:layout_width="409dp"
+                android:layout_height="40dp"
+                android:layout_margin="10dp"
+                android:layout_weight="0"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/row3"
+                app:layout_constraintVertical_bias="0.0">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="102dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="306dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:text="@string/kg"
+                            android:fontFamily="@font/aclonica"
+                            android:textColor="#272727"
+                            android:textSize="14sp"
+                            android:textStyle="bold" />
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="102dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="204dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <EditText
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:fontFamily="@font/aclonica"
+                            android:textColor="#272727"
+                            android:textSize="14sp"
+                            android:textStyle="bold" />
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="102dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="102dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <EditText
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:fontFamily="@font/aclonica"
+                            android:textColor="#272727"
+                            android:textSize="14sp"
+                            android:textStyle="bold" />
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="102dp"
+                    android:layout_height="match_parent">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:fontFamily="@font/aclonica"
+                            android:text="Absent Student"
+                            android:textColor="#272727"
+                            android:textSize="14sp"
+                            android:textStyle="bold" />
+                    </RelativeLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="102dp"
+                    android:layout_height="match_parent">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:fontFamily="@font/aclonica"
+                            android:text="Mataki"
+                            android:textColor="#272727"
+                            android:textSize="14sp"
+                            android:textStyle="bold" />
+                    </RelativeLayout>
+
+                </androidx.cardview.widget.CardView>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/row5"
+                android:layout_width="409dp"
+                android:layout_height="40dp"
+                android:layout_margin="10dp"
+                android:layout_weight="0"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/row4"
+                app:layout_constraintVertical_bias="0.0">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="102dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="306dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:text="@string/kg"
+                            android:fontFamily="@font/aclonica"
+                            android:textColor="#272727"
+                            android:textSize="14sp"
+                            android:textStyle="bold" />
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="102dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="204dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <EditText
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:fontFamily="@font/aclonica"
+                            android:textColor="#272727"
+                            android:textSize="14sp"
+                            android:textStyle="bold" />
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="102dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="102dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <EditText
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:fontFamily="@font/aclonica"
+                            android:textColor="#272727"
+                            android:textSize="14sp"
+                            android:textStyle="bold" />
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="102dp"
+                    android:layout_height="match_parent">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:fontFamily="@font/aclonica"
+                            android:text="oil"
+                            android:textColor="#272727"
+                            android:textSize="14sp"
+                            android:textStyle="bold" />
+                    </RelativeLayout>
+
+                </androidx.cardview.widget.CardView>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/row6"
+                android:layout_width="409dp"
+                android:layout_height="40dp"
+                android:layout_margin="10dp"
+                android:layout_weight="0"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/row5"
+                app:layout_constraintVertical_bias="0.0">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="102dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="306dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:text="@string/kg"
+                            android:fontFamily="@font/aclonica"
+                            android:textColor="#272727"
+                            android:textSize="14sp"
+                            android:textStyle="bold" />
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="102dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="204dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <EditText
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:fontFamily="@font/aclonica"
+                            android:textColor="#272727"
+                            android:textSize="14sp"
+                            android:textStyle="bold" />
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="102dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="102dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <EditText
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:fontFamily="@font/aclonica"
+                            android:textColor="#272727"
+                            android:textSize="14sp"
+                            android:textStyle="bold" />
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="102dp"
+                    android:layout_height="match_parent">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:fontFamily="@font/aclonica"
+                            android:text="Salt"
+                            android:textColor="#272727"
+                            android:textSize="14sp"
+                            android:textStyle="bold" />
+                    </RelativeLayout>
+
+                </androidx.cardview.widget.CardView>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/row7"
+                android:layout_width="409dp"
+                android:layout_height="40dp"
+                android:layout_margin="10dp"
+                android:layout_weight="0"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/row6"
+                app:layout_constraintVertical_bias="0.0">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="102dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="306dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:text="@string/kg"
+                            android:fontFamily="@font/aclonica"
+                            android:textColor="#272727"
+                            android:textSize="14sp"
+                            android:textStyle="bold" />
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="102dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="204dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <EditText
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:fontFamily="@font/aclonica"
+                            android:textColor="#272727"
+                            android:textSize="14sp"
+                            android:textStyle="bold" />
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="102dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="102dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <EditText
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:fontFamily="@font/aclonica"
+                            android:textColor="#272727"
+                            android:textSize="14sp"
+                            android:textStyle="bold" />
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="102dp"
+                    android:layout_height="match_parent">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:fontFamily="@font/aclonica"
+                            android:text="Absent Student"
+                            android:textColor="#272727"
+                            android:textSize="14sp"
+                            android:textStyle="bold" />
+                    </RelativeLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="102dp"
+                    android:layout_height="match_parent">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:fontFamily="@font/aclonica"
+                            android:text="Masale"
+                            android:textColor="#272727"
+                            android:textSize="14sp"
+                            android:textStyle="bold" />
+                    </RelativeLayout>
+
+                </androidx.cardview.widget.CardView>
+
+
+            </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:shadowColor="#151311"
+        android:text="Submit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/row7"
+        app:layout_constraintVertical_bias="0.56" />
+</androidx.constraintlayout.widget.ConstraintLayout>
