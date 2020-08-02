@@ -11,16 +11,22 @@ import android.widget.DatePicker;
 import android.widget.TextView;
 
 import com.example.mdmscheme.R;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
 
 import java.text.DateFormat;
 import java.util.Calendar;
 
 public class PublicDashboard extends AppCompatActivity  implements DatePickerDialog.OnDateSetListener{
-
+    private FirebaseDatabase database;
+    private DatabaseReference mDatabase;
+    private String personCount;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_public_dashboard);
+
+        personCount =
 
         Button button = (Button) findViewById(R.id.button_p);
         button.setOnClickListener(new View.OnClickListener() {

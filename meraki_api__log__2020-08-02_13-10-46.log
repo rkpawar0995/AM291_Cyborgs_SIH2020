@@ -1,0 +1,11 @@
+2020-08-02 13:10:46       meraki:     INFO > Meraki dashboard API session initialized with these parameters: {'self': <meraki.rest_session.RestSession object at 0x7f4b02efabe0>, 'logger': <Logger meraki (DEBUG)>, 'api_key': '************************************e49c', 'base_url': 'https://api.meraki.com/api/v0', 'single_request_timeout': 60, 'certificate_path': '', 'requests_proxy': '', 'wait_on_rate_limit': True, 'nginx_429_retry_wait_time': 60, 'action_batch_retry_wait_time': 60, 'retry_4xx_error': False, 'retry_4xx_error_wait_time': 60, 'maximum_retries': 2, 'simulate': False, 'be_geo_id': None, 'caller': None, '__class__': <class 'meraki.rest_session.RestSession'>}
+2020-08-02 13:10:46       meraki:    DEBUG > {'tags': ['MV Sense'], 'operation': 'getDeviceCameraAnalyticsLive', 'method': 'GET', 'url': '/devices/Q2JV-BY67-ABC8/camera/analytics/live', 'params': None}
+2020-08-02 13:10:46 urllib3.connectionpool:    DEBUG > Starting new HTTPS connection (1): api.meraki.com:443
+2020-08-02 13:10:48 urllib3.connectionpool:    DEBUG > https://api.meraki.com:443 "GET /api/v0/devices/Q2JV-BY67-ABC8/camera/analytics/live HTTP/1.1" 302 None
+2020-08-02 13:10:48 urllib3.connectionpool:    DEBUG > Starting new HTTPS connection (1): n263.meraki.com:443
+2020-08-02 13:10:54 urllib3.connectionpool:    DEBUG > https://n263.meraki.com:443 "GET /api/v0/devices/Q2JV-BY67-ABC8/camera/analytics/live HTTP/1.1" 200 None
+2020-08-02 13:10:54       meraki:     INFO > MV Sense, getDeviceCameraAnalyticsLive - 200 OK
+2020-08-02 13:10:54 urllib3.connectionpool:    DEBUG > Starting new HTTPS connection (1): middaymeal-scheme.firebaseio.com:443
+2020-08-02 13:10:56 urllib3.connectionpool:    DEBUG > https://middaymeal-scheme.firebaseio.com:443 "PUT /live-feed.json HTTP/1.1" 200 256
+2020-08-02 13:10:56 urllib3.connectionpool:    DEBUG > Starting new HTTPS connection (1): api.meraki.com:443
+2020-08-02 13:10:57 urllib3.connectionpool:    DEBUG > https://api.meraki.com:443 "GET /api/v0/networks/N_711005791171205780/cameras/Q2JV-BY67-ABC8/videoLink HTTP/1.1" 404 None
