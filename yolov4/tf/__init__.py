@@ -270,9 +270,21 @@ class YOLOv4:
             pass
         cv2.destroyWindow("result")
 
-    ############
-    # Training #
-    ############
+
+    # def count_object(network, class_ids, scores, bounding_boxes, object_label, threshold=0.75):
+
+    #     detected_objects=0
+    #     while(scores[0][detected_objects]>threshold):
+    #     detected_objects+=1
+    #     count=0
+    #     reqd_idx = network.classes.index(object_label)
+    #     for idx in class_ids[0][:detected_objects]:
+    #     if (idx==reqd_idx):
+    #         count+=1
+    #     return count
+  
+
+    #Training 
 
     def load_dataset(
         self, dataset_path, dataset_type="converted_coco", training=True
