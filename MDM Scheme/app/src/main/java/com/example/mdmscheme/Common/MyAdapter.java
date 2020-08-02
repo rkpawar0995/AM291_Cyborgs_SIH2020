@@ -84,10 +84,7 @@ public class MyAdapter extends RecyclerView.Adapter<FoodViewHolder>{
             viewToAnimate.startAnimation(animation);
             lastPosition = position;
 
-
         }
-
-
 
     }
 
