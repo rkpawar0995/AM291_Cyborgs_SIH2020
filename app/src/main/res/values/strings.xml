@@ -1,0 +1,76 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">MDM Scheme</string>
+    <string name="logo_name">Get A Way</string>
+    <string name="powered_by">Government Of India.</string>
+    <string name="tital">MID DAY MEAL SCHEME</string>
+    <string name="attend">Attendance</string>
+    <string name="food_menu">Food Manu</string>
+    <string name="record">Record</string>
+    <string name="school_info">School Info</string>
+    <string name="mdm_mhrd">MDM-(MHRD)</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="username">Username</string>
+    <string name="hello_there_welcome_back">Hello There, Welcome Back</string>
+    <string name="login">Login</string>
+    <string name="forget_password">Forget Password?</string>
+    <string name="new_user_sign_up">New User? Sign Up</string>
+    <string name="password">Password</string>
+    <string name="sign_in_to_continue">Sign In to continue</string>
+
+    <string name="kg">Kg</string>
+    <string name="mfs">MDM Food Stock</string>
+    <string name="mda">MDM Daily Attendance</string>
+    <string name="mpd">MDM Public Dashboard</string>
+    <string name="student_count">Student Counting</string>
+    <string name="food_detect">Food Detect</string>
+    <string name="mmp">MDM Meal Provision</string>
+
+
+
+    <string name="about1" tools:ignore="TypographyOther">Mid Day Meal in schools has had a long history in India. In 1925, a Mid Day Meal Programme was introduced for disadvantaged children in Madras Municipal Corporation. By the mid 1980s three States viz. Gujarat, Kerala and Tamil Nadu and the UT of Pondicherry had universalized a cooked Mid Day Meal Programme with their own resources for children studying at the primary stage by 1990-91 the number of States implementing the mid day meal programme with their own resources on a universal or a large scale had increased to twelve states.
+    </string>
+    <string name="about2" tools:ignore="TypographyOther">The Mid-day Meal Scheme is a school meal programme of the Government of India designed to better the nutritional standing of school-age children nationwide.[1] The programme supplies free lunches on working days for children in primary and upper primary classes in government, government aided, local body, Education Guarantee Scheme, and alternate innovative education centres, Madarsa and Maqtabs supported under Sarva Shiksha Abhiyan, and National Child Labour Project schools run by the ministry of labour.[2] Serving 120,000,000 children in over 1,265,000 schools and Education Guarantee Scheme centres, it is the largest of its kind in the world.</string>
+    <string name="about3" tools:ignore="TypographyOther">Under article 24, paragraph 2c of the Convention on the Rights of the Child, to which India is a party, India has committed to yielding "adequate nutritious food" for children. The programme has undergone many changes since its launch in 1995. The Midday Meal Scheme is covered by the National Food Security Act, 2013. The legal backing to the Indian school meal programme is akin to the legal backing provided in the US through the National School Lunch Act.</string>
+    <string name="help" tools:ignore="TypographyOther">Mid Day Meal Scheme
+The Ministry of Human Resource Development
+The Department of School Education and Literacy
+Shastri Bhawan
+New Delhi - 110001
+
+Phone No. : 011-23384253, 011-23387980,
+011-23387210, 011-23386024
+
+   </string>
+    <string name="help1" tools:ignore="TypographyOther">Drop a mail to :
+indiamdm [at] gmail [dot] com
+Phone No. : 011-23384253, 011-23387980,
+011-23387210, 011-23386024 </string>
+
+    <string name="help2">1) How can I check if I am registered for sending data?</string>
+    <string name="help2a">You need to contact the concerned authority of your school/block/district whether registration has been mapped with the MDM scheme app for reporting.</string>
+    <string name="help3">2) As MDM School Coordinator, how should I send the meals data?</string>
+    <string name="help3a">You need to send the MDM daily data with in the pre-defined range using Attendance tab present in MDM Application. This time limit will be set by your State Administrator.</string>
+    <string name="help4">3) How do I came to know that MDM daily data of my schools received correctly?</string>
+    <string name="help4a">All registered users who will report their School MDM daily and monthly data through MDM scheme Application from their mobiles will get rechecked according to Meraki camera Database tally as of acknowledgement part.</string>
+    <string name="help5">4) How to modify/change my registered mobile number ?</string>
+    <string name="help5a">The registered use can send the mobile number modification request to their MDM District/State Coordinator and they can update it through Web portal.</string>
+    <string name="help6">5) Where can I see MDM reporting data of my school ?</string>
+    <string name="help6a">Any registered/non-registered person can view State wise/School wise MDM daily data report on MDM scheme application portal under Public Dashboard section of the menu bar.</string>
+    <string name="help7">6) How to report MDM Scheme food data inconsistency of any school?</string>
+    <string name="help7a">Any registered person can view State wise/School wise MDM daily data report on MDM scheme application portal under Food Stack section of the menu bar in case of any inconsistency there will be instant alert on app.</string>
+    <string name="help8">7) What is the format for sending data of daily meals served at school?</string>
+    <string name="help8a">*First of all you should be registered and mapped to at least one school in MDM application.
+If you are mapped to single school then send daily data as follow
+1)	Open MDM scheme application and Login using Username and Password.
+eg. Username: - Suresh Singh Password:-1234***
+2)	Click on Food Stock tab.
+3)	Enter details accordingly to the real time data.
+4)	Your data will be saved after you click submit button.</string>
+    <string name="help9">8) My school works is in two shifts and meals are also served twice. Should I send two entries?</string>
+    <string name="help9a">Yes. The application has a provision for registering respondent with unique Id’s against each shifts of same school and they can send the MDM data of their respective shifts.</string>
+    <string name="help10">09) How to send MDM Daily Reporting Data to National or Central Portal ?</string>
+    <string name="help10a">There is no manual intervention in porting data to central or national portal. The MDM application provide automated feature of data porting in batches to central portal after every survey. The same can be viewed by State Administrator.</string>
+
+</resources>
