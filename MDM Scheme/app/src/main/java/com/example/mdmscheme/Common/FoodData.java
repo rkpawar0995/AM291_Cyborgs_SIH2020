@@ -8,17 +8,21 @@ public class FoodData {
     private String photo;
     private String name;
     private String dec;
+    private String type;
+    private String time;
 
 
     public FoodData() {
     }
 
-    public FoodData(String location,String photo, String name, String dec) {
+    public FoodData(String location,String photo, String name, String dec,String type,String time) {
 
         this.location = location;
         this.photo = photo;
         this.name = name;
         this.dec = dec;
+        this.time =time;
+        this.type = type;
     }
 
     public String getKey() {
@@ -28,9 +32,6 @@ public class FoodData {
     public void setKey(String key) {
         this.key = key;
     }
-
-
-
     public String getLocation() {
         return location;
     }
@@ -61,5 +62,21 @@ public class FoodData {
 
     public void setDec(String dec) {
         this.dec = dec;
+    }
+
+    public void setTime(String time) {
+        this.time = time;
+    }
+
+    public String getTime() {
+        return time;
+    }
+
+    public void setType(String type) {
+        this.type = type;
+    }
+
+    public String getType() {
+        return type;
     }
 }

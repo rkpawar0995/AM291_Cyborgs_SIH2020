@@ -42,21 +42,13 @@
                     <TextView
                         android:layout_marginLeft="20sp"
                         android:textSize="15sp"
-                        android:text="4.0"
-                        android:textColor="#FF9800"
+                        android:text="Food Served:"
+                        android:textColor="#000"
                         android:id="@+id/rating"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content">
                     </TextView>
 
-                    <RatingBar
-                        android:layout_marginLeft="20sp"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:numStars="5"
-                        android:stepSize="1"
-                        android:rating="4"
-                        style="?android:attr/ratingBarStyleSmall" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -69,7 +61,7 @@
                         android:layout_marginLeft="20sp"
                         android:textSize="15sp"
                         android:id="@+id/type"
-                        android:text="type:"
+                        android:text="Average Count:"
                         android:textColor="#000"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content">
@@ -98,7 +90,7 @@
                     <TextView
                         android:layout_marginLeft="20sp"
                         android:textSize="15sp"
-                        android:text="Open Unitil:"
+                        android:text="Student Count:"
                         android:textColor="#000"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content">
@@ -108,7 +100,7 @@
                         android:layout_marginRight="10dp"
                         android:textColor="#000"
                         android:textSize="15sp"
-                        android:text="12:00am"
+                        android:text="45"
                         android:id="@+id/time"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content">

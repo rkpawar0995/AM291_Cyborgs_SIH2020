@@ -41,7 +41,7 @@ public class MyAdapter extends RecyclerView.Adapter<FoodViewHolder>{
 
 
     @Override
-    public void onBindViewHolder(@NonNull final FoodViewHolder foodViewHolder, int i) {
+    public void onBindViewHolder( final FoodViewHolder foodViewHolder, int i) {
 
 
         Glide.with(mContext)
@@ -50,18 +50,19 @@ public class MyAdapter extends RecyclerView.Adapter<FoodViewHolder>{
 
         TextView time,location,type,name;
 
-        // foodViewHolder.time.setText(myFoodList.get(i).getTime());
+        foodViewHolder.time.setText(myFoodList.get(i).getTime());
         foodViewHolder.location.setText(myFoodList.get(i).getLocation());
-        // foodViewHolder.type.setText(myFoodList.get(i).getType());
+        foodViewHolder.type.setText(myFoodList.get(i).getType());
         foodViewHolder.name.setText(myFoodList.get(i).getName());
 
         foodViewHolder.mCardView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(mContext, Info.class);
-                intent.putExtra("count",myFoodList.get(foodViewHolder.getAdapterPosition()).getName());
-                intent.putExtra("snapshot",myFoodList.get(foodViewHolder.getAdapterPosition()).getDec());
-                intent.putExtra("timespan",myFoodList.get(foodViewHolder.getAdapterPosition()).getPhoto());
+                intent.putExtra("averageCount",myFoodList.get(foodViewHolder.getAdapterPosition()).getName());
+                intent.putExtra("zoneId",myFoodList.get(foodViewHolder.getAdapterPosition()).getDec());
+                intent.putExtra("photo",myFoodList.get(foodViewHolder.getAdapterPosition()).getPhoto());
+                intent.putExtra("entrances",myFoodList.get(foodViewHolder.getAdapterPosition()).getTime());
                 mContext.startActivity(intent);
 
             }
